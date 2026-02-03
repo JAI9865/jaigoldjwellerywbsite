@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:whitesmoke;
+   font-family: 'Georgia', serif;
+   border-bottom: 1px solid #d4af37;
+   
+   
+    
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 18px;
+    gap: 90px;
+    
+}
+.nav-menu li a {
+    color: #785425;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    text-decoration: none;
+  }
+  
+   
+
+  @media (max-width: 768px) {
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      background-color: whitesmoke;
+      position: absolute;
+      top: 250px;
+      right: 0;
+      width: 50%;
+      padding: 1rem;
+    }
+
+}

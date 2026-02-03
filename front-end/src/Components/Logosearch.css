@@ -1,0 +1,52 @@
+.logo{
+    background-color:#2b2116;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #d4af37;
+    height: 150px;
+   
+    
+}
+.img{
+    width: 150px;
+    height: 120px;
+    margin: 5px;
+    margin-right: 15vh;
+}
+
+.button{
+    width: 3vh;
+    height: 3vh; 
+    margin: 6px;
+    
+}
+
+label{
+    color:'block';
+    font-weight:'bold';
+    font-Size:'30px';
+    padding: '5px';
+}
+
+ input{
+    margin-left: 3vh;
+    width: 70vh;
+    height: 5vh;
+}
+
+
+
+@media (max-width: 768px) {
+    .logo{
+      display:flex;
+      flex-direction:column;
+      background-color:rgb(85, 68, 25);
+      position: absolute;
+      top: 40px;
+      right: 0;
+    
+      padding: 1rem;
+    }
+
+}
