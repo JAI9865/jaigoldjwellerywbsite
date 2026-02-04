@@ -76,7 +76,7 @@ const handleRegister = async (e) => {
   e.preventDefault();
   if (validateLogin()) {
     try {
-      const res = await axios.post("http://localhost:5000/login", loginData);
+      const res = await axios.post("https://jaigoldjwellerywbsite-back-end.onrender.com/login", loginData);
       alert("Login Successful");
       console.log(res.data);
 
