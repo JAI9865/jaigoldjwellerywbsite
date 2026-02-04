@@ -16,7 +16,7 @@ import home5 from '../../assets/home5.jpeg'
 
 
 
-const Rootlayout = () => {
+const RootLayout = () => {
   return (
     <div>
     <div>
