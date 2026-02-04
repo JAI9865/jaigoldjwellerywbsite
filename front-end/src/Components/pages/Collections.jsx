@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar";
-import Card from "./cart";
+import Card from "./Cart";
 import kanima2 from "../../assets/kanima2.webp";
 import kanima3 from "../../assets/kanima3.webp";
 import kanima4 from "../../assets/kanima4.jpg";
