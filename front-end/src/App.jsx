@@ -12,7 +12,7 @@ import Collections from './Components/pages/Collections'
 import Legacy from './Components/pages/Legacy'
 import Delivery from './Components/pages/Delivery'
 import Footer from './Components/pages/Footer'
-import Rootlayout from './Components/Layout/Rootlayout'
+import RootLayout from "./Components/Layout/RootLayout";
 import Login from './Components/pages/Login'
 import AddProduct from './Components/pages/Addproduct'
 
