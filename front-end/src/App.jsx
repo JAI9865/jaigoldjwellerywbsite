@@ -23,12 +23,12 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Rootlayout/>}/>
+        <Route path='/' element={<RootLayout/>}/>
         <Route path='/Earings' element={<Earings/>}/>
         <Route path='/Bangles' element={<Bangles/>}/>
         <Route path='/Chains' element={<Chains/>}/>
         <Route path='/Rings' element={<Rings/>}/>
-        <Route path='/add-product' element={<AddProduct/>}/>
+        <Route path='/addproduct' element={<AddProduct/>}/>
 
         <Route path='/AllJewellery' element={<AllJewellery/>}/>
         <Route path='/Coinsbar' element={<Coinsbar/>}/>
