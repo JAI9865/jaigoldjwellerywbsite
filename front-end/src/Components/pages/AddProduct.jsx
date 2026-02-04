@@ -18,7 +18,7 @@ const AddProduct = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/products/add', product);
+      await axios.post('https://jaigoldjwellerywbsite-back-end.onrender.com', product);
       navigate('/Rings');
     } catch (error) {
       alert('Error adding product');
