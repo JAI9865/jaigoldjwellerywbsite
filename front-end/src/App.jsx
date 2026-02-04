@@ -14,7 +14,7 @@ import Delivery from './Components/pages/Delivery'
 import Footer from './Components/pages/Footer'
 import RootLayout from "./Components/Layout/RootLayout";
 import Login from './Components/pages/Login'
-import AddProduct from './Components/pages/Addproduct'
+import AddProduct from "./Components/pages/AddProduct";
 
 
 function App() {
