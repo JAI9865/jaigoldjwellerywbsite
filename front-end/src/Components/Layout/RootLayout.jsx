@@ -77,4 +77,4 @@ const Rootlayout = () => {
   )
 }
 
-export default Rootlayout
+export default RootLayout
