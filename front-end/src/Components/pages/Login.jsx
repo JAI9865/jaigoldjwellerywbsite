@@ -55,7 +55,7 @@ const handleRegister = async (e) => {
   e.preventDefault();
   if (validateRegister()) {
     try {
-      const res = await axios.post("https://jaigoldjwellerywbsite-back-end.onrender.com", registerData);
+      const res = await axios.post("https://jaigoldjwellerywbsite-back-end.onrender.com/register", registerData);
       alert("Registration Successful");
       console.log(res.data);
 
