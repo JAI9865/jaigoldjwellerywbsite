@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/gsk logo jewel.png'
+import logo from '../assets/jai logo jewel.png'
 import search from '../assets/searchimg.webp'
 import './Logosearch.css'
 import { NavLink } from 'react-router-dom'
