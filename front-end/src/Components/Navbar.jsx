@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css'
 
 import {NavLink} from 'react-router-dom'
-import Logosearch from './logosearch'
+import Logosearch from './Logosearch'
 import Delivery from './pages/Delivery'
 
 
