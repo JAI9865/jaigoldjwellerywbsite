@@ -9,7 +9,7 @@ const Rings = () => {
   const [cart, setCart] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/products')
+    axios.get('https://jaigoldjwellerywbsite-back-end.onrender.com')
       .then((res) => setProducts(res.data))
       .catch((err) => console.error('Error fetching products:', err));
   }, []);
