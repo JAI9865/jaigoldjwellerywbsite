@@ -20,7 +20,7 @@ const Delivery = ({ onClose }) => {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/api/delivery', formData);
+      const response = await axios.post('https://jaigoldjwellerywbsite-back-end.onrender.com', formData);
       alert(response.data.message);
       onClose(); // Close modal on success
     } catch (error) {
